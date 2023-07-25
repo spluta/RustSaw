@@ -15,7 +15,7 @@ RustSaw::RustSaw() {
 }
 
 RustSaw::~RustSaw() {
-    rust_saw_free;
+    rust_saw_free(rusty);
 }
 
 void RustSaw::next(int nSamples) {
