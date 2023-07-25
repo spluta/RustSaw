@@ -1,0 +1,13 @@
+{
+    "cmake.configureOnOpen": true,
+    "files.associations": {
+        "bitset": "cpp",
+        "locale": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "ios": "cpp",
+        "chrono": "cpp",
+        "*.ipp": "cpp",
+        "random": "cpp"
+    }
+}

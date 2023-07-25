@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/CMakeFiles/rust_saw"
+		},
+		{
+			"file" : "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/CMakeFiles/rust_saw.rule"
+		},
+		{
+			"file" : "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/CMakeFiles/rust_saw-complete.rule"
+		},
+		{
+			"file" : "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-build.rule"
+		},
+		{
+			"file" : "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-configure.rule"
+		},
+		{
+			"file" : "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-download.rule"
+		},
+		{
+			"file" : "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-install.rule"
+		},
+		{
+			"file" : "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-mkdir.rule"
+		},
+		{
+			"file" : "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-patch.rule"
+		},
+		{
+			"file" : "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"rust_saw"
+		],
+		"name" : "rust_saw"
+	}
+}

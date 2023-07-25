@@ -1,0 +1,46 @@
+TITLE:: RustSaw
+summary:: A saw that uses Rust as DSP code
+categories:: Undocumented classes, UGens>Undocumented
+related:: Classes/LFSaw
+
+DESCRIPTION::
+Rusty
+
+
+CLASSMETHODS::
+
+METHOD:: ar
+(describe method here)
+
+ARGUMENT:: freq
+the freq
+
+ARGUMENT:: phase
+the phase - modulateable!
+
+ARGUMENT:: mul
+mully
+
+ARGUMENT:: add
+addy
+
+
+
+
+
+EXAMPLES::
+
+code::
+{RustSaw.ar(50, 0, 0.2).dup}.scope;
+
+{RustSaw.ar(0, LFTri.ar(100), 0.2).dup}.scope;
+
+{RustSaw.ar(MouseX.kr(-1000, 1000), 0, 0.2).dup}.scope;
+
+(
+var fund = rrand(50,150);
+{10.do{|i|
+	{Pan2.ar(RustSaw.ar(fund*i, 0), i/5-1)*0.1}.play;
+	0.2.wait;
+}}.fork)
+::

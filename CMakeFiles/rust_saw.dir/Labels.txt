@@ -1,0 +1,13 @@
+# Target labels
+ rust_saw
+# Source files and their labels
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/CMakeFiles/rust_saw
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/CMakeFiles/rust_saw.rule
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/CMakeFiles/rust_saw-complete.rule
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-build.rule
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-configure.rule
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-download.rule
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-install.rule
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-mkdir.rule
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-patch.rule
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-update.rule

@@ -1,0 +1,4 @@
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/CMakeFiles/RustSaw.dir
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/CMakeFiles/rust_saw.dir
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/CMakeFiles/edit_cache.dir
+/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/CMakeFiles/rebuild_cache.dir

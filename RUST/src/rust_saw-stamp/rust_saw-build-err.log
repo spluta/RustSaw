@@ -1,0 +1,19 @@
+   Compiling rust_saw v0.1.0 (/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/rust_saw)
+error: failed to run custom build command for `rust_saw v0.1.0 (/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/rust_saw)`
+
+Caused by:
+  process didn't exit successfully: `/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/rust_saw/target/debug/build/rust_saw-0ed8a9c4787df408/build-script-build` (exit status: 101)
+  --- stdout
+  build.rs
+  CARGO_MANIFEST_DIR: "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/rust_saw"
+  OUT_DIR: "/Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/rust_saw/target/debug/build/rust_saw-3498e3772d22749c/out"
+
+  --- stderr
+  thread 'main' panicked at 'Unable to find cbindgen.toml configuration file: "Couldn't open config file: cbindgen.toml."', build.rs:17:10
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+CMake Error at /Users/spluta1/Documents/SC/SuperColliderBuild/rust_saw/RUST/src/rust_saw-stamp/rust_saw-build--impl.cmake:9 (message):
+  Command failed (101):
+
+   'cargo' 'build'
+
+
