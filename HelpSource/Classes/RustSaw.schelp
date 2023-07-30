@@ -1,10 +1,10 @@
 TITLE:: RustSaw
 summary:: A saw that uses Rust as DSP code
 categories:: Undocumented classes, UGens>Undocumented
-related:: Classes/LFSaw
+related:: Classes/LFSaw, Classes/RustSawN
 
 DESCRIPTION::
-Rusty
+A saw that uses Rust as DSP code. This version asks Rust for the next sample on every single sample. See RustSawN for an example where Rust calculates the entire block of audio.
 
 
 CLASSMETHODS::
