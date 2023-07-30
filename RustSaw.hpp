@@ -8,7 +8,6 @@
 
 namespace RustSaw {
 
-
 class RustSaw : public SCUnit {
 public:
     RustSaw();
@@ -24,3 +23,22 @@ private:
 };
 
 } // namespace RustSaw
+
+namespace RustSawN {
+    
+//RustSawN inherits from RustSaw - next is overridden
+class RustSawN : public SCUnit {
+    public:
+    RustSawN();
+
+    // Destructor
+    ~RustSawN();
+
+
+    private:
+    // Calc function
+    void next(int nSamples);
+    float m_freqMul{2.0f/(float)sampleRate()};
+    RustSawR *rusty = rust_saw_new();
+};
+}

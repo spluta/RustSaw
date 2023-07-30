@@ -22,6 +22,7 @@ endif()
 
 # this part will build the SC plugin
 add_library(RustSaw MODULE RustSaw.cpp)
+add_library(RustSawN MODULE RustSaw.cpp)
 
 # we need all this stuff to inculde the rust lib file
 include_directories ("${PROJECT_BINARY_DIR}")
@@ -30,7 +31,8 @@ include_directories ("${PROJECT_SOURCE_DIR}/${RUST_DIR}")
 include (ExternalProject)
 set_directory_properties (PROPERTIES EP_PREFIX ${PROJECT_BINARY_DIR}/RUST)
 
-add_dependencies(${PROJ_NAME} ${RUST_DIR})
+add_dependencies(RustSaw ${RUST_DIR})
+add_dependencies(RustSawN ${RUST_DIR})
 
 # Since static libraries can't communicate their own dependencies to the linker, we need to
 # specify them explicitly, AFTER the static libraries (here, pthread and dl)
@@ -38,12 +40,18 @@ add_dependencies(${PROJ_NAME} ${RUST_DIR})
 # `cargo rustc -- --print native-static-libs`, or by examining the error messages when
 # using the `make` command.
 TARGET_LINK_LIBRARIES(
-  ${PROJ_NAME}
+  RustSaw
   debug "${PROJECT_SOURCE_DIR}/${RUST_DIR}/target/debug/lib${RUST_DIR}.a"
   optimized "${PROJECT_SOURCE_DIR}/${RUST_DIR}/target/release/lib${RUST_DIR}.a"
   dl
   pthread
 )
 
-
+TARGET_LINK_LIBRARIES(
+  RustSawN
+  debug "${PROJECT_SOURCE_DIR}/${RUST_DIR}/target/debug/lib${RUST_DIR}.a"
+  optimized "${PROJECT_SOURCE_DIR}/${RUST_DIR}/target/release/lib${RUST_DIR}.a"
+  dl
+  pthread
+)
 
